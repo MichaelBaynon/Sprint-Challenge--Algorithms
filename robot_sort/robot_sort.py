@@ -98,7 +98,7 @@ class SortingRobot:
            for compareInt in range(int + 1, len(list)):
                if list[int] > list[compareInt]:
                    list[int], list[compareInt] = list[compareInt], list[int]
-            
+
 
 #     example of bubble sort
 
